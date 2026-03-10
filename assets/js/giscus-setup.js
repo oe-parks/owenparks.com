@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "oe-parks/oweneparks.com",
+    "data-repo": "oe-parks/owenparks.com",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
