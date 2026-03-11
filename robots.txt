@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://owenparks.com/al-folio/sitemap.xml
+Sitemap: https://owenparks.com/sitemap.xml
