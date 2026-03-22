@@ -412,8 +412,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-why-machines-learn-the-elegant-math-behind-modern-ai",
+          title: 'Why Machines Learn: The Elegant Math Behind Modern AI',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/why_machines_learn/";
