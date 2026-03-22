@@ -7,11 +7,11 @@ olid: OL51103467M # use Open Library ID to fetch cover (if no `cover` is provide
 isbn: 9780593185742 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: computer-science math AI
 tags: top-100
-buy_link: [https://www.amazon.com/Why-Machines-Learn-Elegant-Behind/dp/0593185749]
+buy_link: https://www.amazon.com/Why-Machines-Learn-Elegant-Behind/dp/0593185749
 started: 2026-01-23
-finished: 
+finished: ---
 released: 2024
-stars: 
+stars: 4
 goodreads_review: 6318556633
 status: In Progress
 ---
