@@ -2,7 +2,7 @@
 layout: book-review
 title: "Why Machines Learn: The Elegant Math Behind Modern AI"
 author: Anil Ananthaswamy
-cover: assets/img/book_covers/the_godfather.jpg
+cover: assets/img/book_covers/whymachingeslearn.jpg
 olid: OL51103467M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593185742 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: computer-science math AI
