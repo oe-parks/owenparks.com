@@ -412,6 +412,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "books-the-poppy-war",
+          title: 'The Poppy War',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_poppy_war/";
             },},{id: "books-why-machines-learn-the-elegant-math-behind-modern-ai",
           title: 'Why Machines Learn: The Elegant Math Behind Modern AI',
           description: "",
