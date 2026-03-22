@@ -8,12 +8,12 @@ isbn: 9780593185742 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: computer-science math AI
 tags: top-100
 buy_link: https://www.amazon.com/Why-Machines-Learn-Elegant-Behind/dp/0593185749
-started: 2026-01-23
-finished: ---
+started: 2026-02-23
+finished: 2026-3-27
 released: 2024
 stars: 4
 goodreads_review: 6318556633
-status: In Progress
+status: Finished
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin eros sit amet ante aliquet, sit amet vulputate lectus mattis. Aenean ullamcorper pretium nunc, sed egestas lorem elementum id. Nulla id mi id neque ultrices egestas ut in urna. Sed ac ultricies nunc. Nam convallis placerat urna id egestas. Nulla porta, est interdum vestibulum venenatis, lorem odio laoreet sapien, in pulvinar tellus eros a dolor. Vivamus sapien justo, ullamcorper a mi eget, scelerisque euismod nunc. In augue augue, ultrices a ornare non, tincidunt quis justo. Donec sit amet consectetur eros. Nullam neque leo, tincidunt id ipsum ac, volutpat lobortis mi. Phasellus consequat ultricies arcu, eu semper ligula ultrices eget. Ut in fringilla elit, ac tincidunt nisi.
