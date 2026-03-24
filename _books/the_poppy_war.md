@@ -8,7 +8,7 @@ isbn: 9780008239848 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: fantasy action historical-fantasy
 tags: top-100
 buy_link: https://www.amazon.com/Poppy-War-Novel-R-Kuang/dp/0062662562
-date: 2024-08-23
+date: 2025-03-20
 started: 2025-03-20
 finished: 2025-03-26
 released: 2018
