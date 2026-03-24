@@ -8,7 +8,7 @@ isbn: 9780062662620 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: fantasy action historical-fantasy
 tags: top-100
 buy_link: https://www.amazon.com/Burning-God-Poppy-War/dp/0062662643/ref=sr_1_1?crid=34KK349S1WWBS&dib=eyJ2IjoiMSJ9.ftBHeJ0QMsErm8DJveOhT0Sgb-HwrsJn95SNTWVmI8Nf1xo15qtC9v0-M6YZJtQXxfqlTSkTWX4klMuP3i_ftMv2bIxLav-QT_5VRN19OJfJN6YmtUFH6cRBsbIMlB0igZDVvG1VADAA_If1oVi99OPez1Jft8dPq3fg0UgVuwd6eSTZYX1r0AzL6p604PjykHZoC5lcGrincSNzUyvU1letBZoQdLpVqkFZVpoTln4.Tp1nJbJFfF6uehChu0Sm_D1QoBIm8hbTiXbthJ7yd-w&dib_tag=se&keywords=the+burning+god&qid=1774380925&sprefix=the+bur%2Caps%2C783&sr=8-1
-date: 2024-08-23
+date: 2025-09-13
 started: 2025-09-13
 finished: 2026-02-01
 released: 2020
