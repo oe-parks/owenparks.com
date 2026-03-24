@@ -13,7 +13,7 @@ finished: 2026-3-27
 released: 2024
 stars: 4
 goodreads_review: 6318556633
-status: In-Progress
+status: Reading
 ---
 
 Good book so far.
