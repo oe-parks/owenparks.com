@@ -8,7 +8,7 @@ isbn: 9780008239893 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: fantasy action historical-fantasy
 tags: top-100
 buy_link: https://www.amazon.com/Dragon-Republic-Poppy-War/dp/0062662600/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Un278qDM6Pp89HkgEkDKG8Bg5ydAAgg6k5p3Fsk-5M3NsJUeTlKa6ThdfR76I39yFE_UbF40PiR6fLg3upHUpUVGoMSZwNgJSEOEL-RZDA4yOSiayMdvEeDL74HwmWrsi3yUe2gabaAzq9VW9j5raYrbX8yHMfDsxsHy_bsOJ6YqeGR5apRRm1-OmaVJDl53LvuR96-wWO04VIPIrwueJZlXbKun9ct_P9Es66YPNfY.UsVxwxOtWXiK4PwNgkJZDtOUmLrjI42cFBnMAQ1cVng&dib_tag=se&keywords=the+dragon+republic&qid=1774380568&refresh=1&s=books&sr=1-1
-date: 2024-08-23
+date: 2025-03-27
 started: 2025-03-27
 finished: 2025-04-01
 released: 2020
