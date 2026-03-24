@@ -47,12 +47,12 @@ cv:
     Experience:
       - company: Roumeli Lab, University of Washington
         position: Undergraduate Researcher
-        location: University of Washington, Seattle, WA
+        location: Seattle, WA
         start_date: Jan 2026
         end_date: Present
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        summary: 
         highlights:
-          - Relativity
+          - Description 1
           - Description 2.
 
       - company: California Institute of Technology
