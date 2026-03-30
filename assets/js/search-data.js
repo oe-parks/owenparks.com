@@ -449,6 +449,13 @@ ninja.data = [{
           window.open("mailto:", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/oe-parks", "_blank");
+        },
+      },{
         id: 'social-inspire',
         title: 'Inspire HEP',
         section: 'Socials',
