@@ -421,8 +421,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/why_machines_learn/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-domain-created-and-website-live",
+          title: 'Domain created and website live!',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
