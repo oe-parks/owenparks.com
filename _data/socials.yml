@@ -3,6 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/ParksOwen_Resume.pdf # path to your CV PDF file
 email: # your email address
+github_username: "oe-parks"
 inspirehep_id: # Inspire HEP author ID
 rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
