@@ -2,14 +2,15 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/ParksOwen_Resume.pdf # path to your CV PDF file
-email: # your email address
+# email: owenp1@uw.edu # your email address
 github_username: "oe-parks"
-inspirehep_id: # Inspire HEP author ID
-rss_icon: false # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+instagram_id: ownprks
+strava_userid: 81998129
+spotify_id: o.parks11
+# inspirehep_id: # Inspire HEP author ID
+# rss_icon: false # comment this line to hide the RSS icon
+scholar_userid:  # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-strava: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: http://www.w3.org/2000/svg # can be png, svg, jpg
-  title: Strava
-  url: https://www.strava.com/athletes/81998129
+
+# https://github.com/george-gca/jekyll-socials/blob/main/site/_data/socials.yml
