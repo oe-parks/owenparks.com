@@ -420,6 +420,13 @@ ninja.data = [{
           window.open("/assets/pdf/ParksOwen_Resume.pdf", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/oe-parks", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
