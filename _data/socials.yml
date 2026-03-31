@@ -3,7 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/ParksOwen_Resume.pdf # path to your CV PDF file
 # email: owenp1@uw.edu # your email address
-linkedin_username: "oe-parks"
+linkedin_username: oe-parks
 github_username: "oe-parks"
 instagram_id: "ownprks"
 strava_userid: "81998129"
