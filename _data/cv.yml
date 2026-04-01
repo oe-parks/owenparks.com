@@ -25,7 +25,7 @@ cv:
         location: Seattle, Washingoton
         url: https://www.washington.edu
         area: Materials Science and Engineering
-        studyType: BsE
+        studyType: Bachelor of Science in Engineering
         start_date: 2024
         end_date: 2027
         score: ""
@@ -36,8 +36,9 @@ cv:
 
       - institution: Walla Walla University
         location: Walla Walla, Washington
+        url: https://www.wallawalla.edu/
         area: Undeclared Engineering
-        studyType: No Degree Earned
+        studyType: General Education Requirments
         start_date: 2022
         end_date: 2024
         highlights:
