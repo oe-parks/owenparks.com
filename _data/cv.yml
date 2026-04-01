@@ -13,33 +13,33 @@ cv:
       username: linkedin.com/in/oe-parks
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street:
+    city: Seattle
+    region: Washington
+    postalCode: WA 948105
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: University of Washington
+        location: Seattle, Washingoton
+        url: https://www.washington.edu
+        area: Materials Science and Engineering
+        studyType: BsE
+        start_date: 2024
+        end_date: 2027
         score: ""
-        courses: "Theory of Relativity"
+        courses: ""
         highlights:
           - Description 1.
           - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Walla Walla University
+        location: Walla Walla, Washington
+        area: Undeclared Engineering
+        studyType: No Degree Earned
+        start_date: 2022
+        end_date: 2024
         highlights:
           - Description 1.
           - Description 2.
