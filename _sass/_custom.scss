@@ -9,7 +9,7 @@
   pointer-events: none;
 }
 
-body > *:not(#lorenz-bg) {
+.container, nav, header, footer {
   position: relative;
   z-index: 1;
 }
