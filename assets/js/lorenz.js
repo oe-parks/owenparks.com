@@ -25,7 +25,7 @@
 
   function project(x, y, z) {
     // Scale and center the attractor on screen
-    const scale = Math.min(canvas.width, canvas.height) / 60;
+    const scale = Math.min(canvas.width, canvas.height) / 40;
     return {
       px: canvas.width / 2 + (x - 0) * scale * 0.6,
       py: canvas.height / 2 - (z - 25) * scale * 0.6,
@@ -57,7 +57,7 @@
   }
 
   function loop() {
-    for (let i = 0; i < 5; i++) step(); // advance multiple steps per frame
+    for (let i = 0; i < 2; i++) step(); // advance multiple steps per frame
     draw();
     animFrame = requestAnimationFrame(loop);
   }
