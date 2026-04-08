@@ -44,12 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "books-the-poppy-war",
+        },{id: "books-the-poppy-war",
           title: 'The Poppy War',
           description: "",
           section: "Books",handler: () => {
