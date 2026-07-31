@@ -56,15 +56,19 @@ The site is served at [owenparks.com](https://owenparks.com) as a Cloudflare
 Workers static-assets site. `wrangler.jsonc` is the deploy config — worker name
 `owenparks-garden`, serving `./dist`.
 
+**Deploys happen automatically on push.** Cloudflare Workers Builds watches
+`main` on GitHub, runs the build, and publishes — usually live within a minute
+of `git push`. No manual step needed.
+
+To publish out-of-band (bypassing GitHub, e.g. testing a local-only change):
+
 ```bash
-npm run deploy     # builds ./dist, then uploads it
+npm run deploy     # builds ./dist, then uploads it directly
 ```
 
-Pushing to GitHub does **not** update the live site — `npm run deploy` is the
-step that publishes.
-
-Wrangler isn't a dependency here, so `npx` fetches it on demand. First deploy
-from a new machine needs `npx wrangler login` once.
+Wrangler isn't a dependency here, so `npx` fetches it on demand; a manual deploy
+from a new machine needs `npx wrangler login` once. Prefer pushing — a direct
+upload puts the live site ahead of what's committed.
 
 Notes:
 
