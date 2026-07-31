@@ -57,12 +57,14 @@ Workers static-assets site. `wrangler.jsonc` is the deploy config — worker nam
 `owenparks-garden`, serving `./dist`.
 
 ```bash
-npm run build      # produces ./dist
-npx wrangler deploy
+npm run deploy     # builds ./dist, then uploads it
 ```
 
+Pushing to GitHub does **not** update the live site — `npm run deploy` is the
+step that publishes.
+
 Wrangler isn't a dependency here, so `npx` fetches it on demand. First deploy
-from a new machine needs `npx wrangler login`.
+from a new machine needs `npx wrangler login` once.
 
 Notes:
 

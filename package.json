@@ -9,6 +9,7 @@
     "prebuild": "node scripts/dither.mjs",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "npm run build && npx wrangler deploy",
     "astro": "astro"
   },
   "dependencies": {
