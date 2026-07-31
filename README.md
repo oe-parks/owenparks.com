@@ -50,10 +50,24 @@ Body text, linking to [[machine-learning]] and other notes.
 It automatically becomes a node in the graph, gains backlinks, and appears in the
 ⌘K switcher.
 
-## Deploy (Cloudflare Pages)
+## Deploy (Cloudflare Workers)
 
-- Framework preset: **Astro**
-- Build command: `npm run build`
-- Output directory: `dist`
+The site is served at [owenparks.com](https://owenparks.com) as a Cloudflare
+Workers static-assets site. `wrangler.jsonc` is the deploy config — worker name
+`owenparks-garden`, serving `./dist`.
+
+```bash
+npm run build      # produces ./dist
+npx wrangler deploy
+```
+
+Wrangler isn't a dependency here, so `npx` fetches it on demand. First deploy
+from a new machine needs `npx wrangler login`.
+
+Notes:
+
+- `html_handling: "auto-trailing-slash"` matches Astro's
+  `trailingSlash: "ignore"`, so `/notes/foo` and `/notes/foo/` both resolve.
+- `not_found_handling: "404-page"` serves the built `404.html`.
 - Optional: set `PUBLIC_CF_BEACON_TOKEN` to enable Cloudflare Web Analytics
   (see `.env.example`).
