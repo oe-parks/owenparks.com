@@ -48,7 +48,7 @@ const dateFmt = (d?: Date) =>
 <BaseLayout title={title} description={description} note={slug} group={data.group}>
   {
     kind === "book" && (
-      <header class="mb-6 flex gap-5">
+      <header class="mb-6 flex flex-col gap-4 sm:flex-row sm:gap-5">
         {data.cover && (
           <img
             src={`/covers/${data.cover}.png`}
