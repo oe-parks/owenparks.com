@@ -38,4 +38,23 @@ const books = defineCollection({
     }),
 });
 
-export const collections = { notes, books };
+// A "reading" is anything that isn't a book: papers, newsletters, journalism,
+// long threads. Each gets its own page hanging off the other-readings hub.
+const readings = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/readings" }),
+  schema: () =>
+    z.object({
+      title: z.string(),
+      author: z.string().optional(), // omit for papers with a long author list
+      type: z
+        .enum(["paper", "newsletter", "journalism", "thread", "essay"])
+        .default("essay"),
+      // where it ran: "arXiv", "The New York Times", "Astral Codex Ten"
+      source: z.string().optional(),
+      url: z.string().url(),
+      added: z.coerce.date(), // sort key for the listing
+      published: z.union([z.string(), z.number()]).optional(),
+    }),
+});
+
+export const collections = { notes, books, readings };

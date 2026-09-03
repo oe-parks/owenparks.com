@@ -12,11 +12,21 @@ const GROUP_LABEL: Record<string, string> = {
   blog: "Writing",
   meta: "Meta",
   book: "Bookshelf",
+  reading: "Other Readings",
+};
+
+const READING_TYPE_LABEL: Record<string, string> = {
+  paper: "Paper",
+  newsletter: "Newsletter",
+  journalism: "Journalism",
+  thread: "Thread",
+  essay: "Essay",
 };
 
 export async function getStaticPaths() {
   const notes = (await getCollection("notes")).filter((n) => !n.data.draft);
   const books = await getCollection("books");
+  const readings = await getCollection("readings");
   return [
     ...notes.map((n) => ({
       params: { slug: n.id === "home" ? "home" : n.id },
@@ -25,6 +35,15 @@ export async function getStaticPaths() {
     ...books.map((b) => ({
       params: { slug: b.id },
       props: { title: b.data.title, kind: `Bookshelf · ${b.data.author}` },
+    })),
+    ...readings.map((r) => ({
+      params: { slug: r.id },
+      props: {
+        title: r.data.title,
+        kind: [READING_TYPE_LABEL[r.data.type] ?? r.data.type, r.data.source]
+          .filter(Boolean)
+          .join(" · "),
+      },
     })),
   ];
 }

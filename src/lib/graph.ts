@@ -1,7 +1,15 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import GithubSlugger from "github-slugger";
 
-export type NodeGroup = "hub" | "interest" | "hobby" | "category" | "blog" | "meta" | "book";
+export type NodeGroup =
+  | "hub"
+  | "interest"
+  | "hobby"
+  | "category"
+  | "blog"
+  | "meta"
+  | "book"
+  | "reading";
 
 export interface GraphNode {
   id: string; // slug
@@ -54,6 +62,7 @@ async function build() {
     (n) => !(isProd && n.data.draft),
   );
   const books = await getCollection("books");
+  const readings = await getCollection("readings");
 
   const nodeMap = new Map<string, GraphNode>();
   const edges: GraphEdge[] = [];
@@ -69,9 +78,12 @@ async function build() {
     addNode(note.id, note.data.title, note.data.group, slugToHref(note.id));
   }
 
-  // 2) books as nodes
+  // 2) books and readings as nodes
   for (const book of books) {
     addNode(book.id, book.data.title, "book", slugToHref(book.id));
+  }
+  for (const reading of readings) {
+    addNode(reading.id, reading.data.title, "reading", slugToHref(reading.id));
   }
 
   const seenEdges = new Set<string>();
@@ -115,6 +127,16 @@ async function build() {
     }
   }
 
+  // 5) readings hang off their own hub the same way books hang off the bookshelf
+  const OTHER_READINGS = "other-readings";
+  for (const reading of readings) {
+    link(reading.id, OTHER_READINGS);
+    for (const target of extractLinks(reading.body)) {
+      link(reading.id, target);
+      registerBacklink(target, reading.id);
+    }
+  }
+
   // degree = number of unique neighbours (drives node radius in the graph)
   for (const [id, neighbours] of adjacency) {
     const node = nodeMap.get(id);
@@ -151,9 +173,10 @@ export async function getSearchIndex() {
     interest: 1,
     hobby: 2,
     book: 3,
-    category: 4,
-    blog: 5,
-    meta: 6,
+    reading: 4,
+    category: 5,
+    blog: 6,
+    meta: 7,
   };
   return [...nodes].sort(
     (a, b) => order[a.group] - order[b.group] || a.title.localeCompare(b.title),
@@ -162,3 +185,4 @@ export async function getSearchIndex() {
 
 export type NoteEntry = CollectionEntry<"notes">;
 export type BookEntry = CollectionEntry<"books">;
+export type ReadingEntry = CollectionEntry<"readings">;
