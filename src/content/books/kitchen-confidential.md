@@ -2,6 +2,7 @@
 title: "Kitchen Confidential"
 author: Anthony Bourdain
 status: Reading
+started: 2026-09-02
 released: 2000
 categories: [nonfiction]
 ---
