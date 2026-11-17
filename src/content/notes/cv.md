@@ -28,7 +28,7 @@ ENGRUD & general studies
 
 ## Experience
 
-- **[Math, Inc.](https://www.math.inc/)** — Mathematics research intern.
+- **[Math, Inc.](https://www.math.inc/)** — Mathematics research intern (May 2026 – Sep 2026).
 
 
 ## Interests
