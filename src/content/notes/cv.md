@@ -24,7 +24,7 @@ ENGRUD & general studies
 
 - **Roumeli Lab, UW** — Undergraduate researcher (Jan 2026 – present).
   Work at the intersection of [[materials-science]] and [[applied-mathematics]].
-- **UW Math AI Lab** — Undergraduate researcher.
+- **[UW Math AI Lab](https://ai.math.uw.edu/)** — Undergraduate researcher.
 
 ## Experience
 
