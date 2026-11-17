@@ -13,7 +13,7 @@ I'm **Owen**, an undergraduate engineering student at the
 [[materials-science|materials science]] alongside [[applied-mathematics|applied]] and
 [[pure-mathematics|pure math]]. 
 
-Currently, I am a mathematics research intern at [Math, Inc.](https://www.math.inc/) and an undergraduate researcher in the [Roumeli research group](https://sites.google.com/uw.edu/roumeli-research-group/) at the UW.
+Currently, I am an undergraduate researcher in the UW Math AI Lab and the [Roumeli research group](https://sites.google.com/uw.edu/roumeli-research-group/) at the UW. Previously, I was a mathematics research intern at [Math, Inc.](https://www.math.inc/).
 
 When I'm not in the lab or buried in a p-set or book, I'm outside [[biking|biking]], [[fly-fishing|fly fishing]], or [[hiking|hiking]] in the Pacific Northwest. I also keep a [[bookshelf|bookshelf]] and,
 occasionally, a [[blog|blog]].
